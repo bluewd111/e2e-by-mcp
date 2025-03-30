@@ -1,0 +1,15 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+.DS_Store
+/blob-report/
+/screenshots/
+
+# 生成されるテストファイルのコミットは避ける
+tests/
+
+# Cursorへの指示を記載するファイル
+# チャットへのテキストのペーストがうまくいかない場合にこのファイルを参照させる
+instruction.txt

@@ -1,0 +1,23 @@
+{
+  "name": "e2e-by-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Playwright MCP を使用して Web アプリケーションの E2E（エンドツーエンド）テストを生成するプロジェクトです。",
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.7",
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.14"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+  }
+}
